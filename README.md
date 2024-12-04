@@ -1,16 +1,15 @@
-Ane is a large village near Jelgava and located on the Lielupe river.
-Ane is famous for its abundance of clay and the production of bricks.
-motivation:
-Bring tourism to Ane,
-Bring attention to its history,
-Make an available website.
-things to implement:
-A simple website,
-Images of the village,
-A brief history of the village,
-List of spots for tourists to visit.
-benefits:
-Bringing tourism and attention to the village,
-Helping local businesses find more customers,
-Preserving local tradition and history,
-Possibly attracting more people to become residents.
+Ane is a large village near Jelgava and located on the Lielupe river. Ane is famous for its abundance of clay and the production of bricks.
+Motivation:
+bring tourism to Ane,
+bring attention to its history,
+make an available website.
+Things to implement:
+a simple website,
+images of the village,
+a brief history of the village,
+list of spots for tourists to visit.
+Benefits:
+bringing tourism and attention to the village,
+helping local businesses find more customers,
+preserving local tradition and history,
+possibly attracting more people to become residents.
