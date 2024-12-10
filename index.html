@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Website To-Do List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #0056b3;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .checklist {
+            list-style: none;
+            padding: 0;
+        }
+        .checklist li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .checklist input {
+            margin-right: 10px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #555;
+        }
+        .footer a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>City Website To-Do List</h1>
+    <div class="container">
+        <div class="section">
+            <h2>General Features</h2>
+            <ul class="checklist">
+                <li><input type="checkbox" id="gallery"> <label for="gallery">Photo Gallery</label></li>
+                <li><input type="checkbox" id="map"> <label for="map">Interactive Map</label></li>
+                <li><input type="checkbox" id="weather"> <label for="weather">Weather Indicator</label></li>
+                <li><input type="checkbox" id="notice-board"> <label for="notice-board">Notice Board</label></li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>City Information</h2>
+            <ul class="checklist">
+                <li><input type="checkbox" id="events"> <label for="events">City Events</label></li>
+                <li><input type="checkbox" id="history"> <label for="history">City History</label></li>
+                <li><input type="checkbox" id="population"> <label for="population">Population Info</label></li>
+                <li><input type="checkbox" id="transport"> <label for="transport">Public Transport Details</label></li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Additional Features</h2>
+            <ul class="checklist">
+                <li><input type="checkbox" id="restaurants"> <label for="restaurants">Local Restaurants</label></li>
+                <li><input type="checkbox" id="parks"> <label for="parks">Parks and Recreation</label></li>
+                <li><input type="checkbox" id="education"> <label for="education">Educational Institutions</label></li>
+                <li><input type="checkbox" id="emergency-services"> <label for="emergency-services">Emergency Services</label></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
